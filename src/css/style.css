@@ -1,0 +1,137 @@
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--pale-blue);
+}
+
+.components{
+    width: 750px;
+}
+
+.your-result, .summary{
+    width: 50%;
+}
+
+main, .components, .your-result, .result, li, .itens{
+    display: flex;
+}
+
+main, .result{
+    justify-content: center;
+}
+
+main, .your-result, .result{
+    align-items: center;
+}
+
+.your-result, .result{
+    flex-direction: column;
+}
+
+.components, .your-result, .btn-continue{
+    border-radius: 30px;
+}
+
+.number-result, .title-classification, .btn-continue{
+    color: var(--white);
+}
+
+.title-result, h4, 
+main .components .your-result .classification p{
+    color: var(--light-lavender);
+}
+
+main .components{
+    background-color: var(--white);
+}
+
+main .components .your-result{
+   background: var(--gradient-bg);
+   gap: 30px;
+}
+
+main .components .your-result .title-result{
+    margin-top: 40px;
+}
+
+main .components .your-result .result{
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    background: var(--gradient-circle);
+}
+
+main .components .your-result .result .number-result{
+    font-size: 2.8rem;
+}
+
+main .components .your-result .result h4{
+    color: var(--light-lavender);
+}
+
+main .components .your-result .classification{
+    text-align: center;
+    width: 69%;
+    margin-bottom: 40px;
+}
+
+main .components .summary{
+    padding: 30px;
+}
+
+main .components .summary h2{
+    color: var(--dark-gray-blue);
+}
+
+main .components .summary li{
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+main .components .summary .itens{
+    gap: 20px;
+}
+
+main .components .summary .score{
+    color: var(--light-lavender);
+}
+
+main .components .summary strong{
+    color: var(--dark-gray-blue);
+}
+
+main .components .summary .reaction-itens{
+    color: var(--light-red);
+    background-color: var(--light-red-op);
+}
+
+main .components .summary .memory-itens{
+    color: var(--orange-yellow);
+    background-color: var(--orange-yellow-op);
+}
+
+main .components .summary .verbal-itens{
+    color: var(--green-teal);
+    background-color: var(--green-teal-op);
+}
+
+main .components .summary .visual-itens{
+    color: var(--cobalt-blue);
+    background-color: var(--cobalt-blue-op);
+}
+
+main .components .btn-continue{
+    height: 60px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    background-color: var(--dark-gray-blue);
+}
+
+main .components .btn-continue:hover{
+    cursor: pointer;
+    background: var(--gradient-bg);
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 112.5%;
+    font-family: 'Hanken Grotesk', sans-serif;
+    line-height: 1.5
+}
+
+ul{
+    list-style: none;
+}
